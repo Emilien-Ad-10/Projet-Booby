@@ -1,0 +1,452 @@
+/* MAX-WIDTH 1258 PX */
+
+@media screen and (max-width: 1301px) {
+    header{
+        width: 95%;
+        margin: 0 2.5% 5% 2.5%;
+    }
+    
+    .section_hébergement{
+        flex-direction: column-reverse;
+    }
+
+    /* POPULAIRE */
+
+    .populaire{
+        width: 99%;
+        margin: 0 2.5% 5% 0;
+    }
+    .grille_populaire{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .item_populaire{
+        margin-right: 15px;
+    }
+    .img_populaire{
+        width: 50%;
+    }
+
+    /* HEBERGEMENT A MARSEILLE */
+
+    .Hébergement_à_Marseille{
+        width: 99%;
+        margin: 0 2.5% 0 0;
+    }
+    .item_hébergement{
+        width: 30%;
+    }
+    .img_hébergement{
+        width: 99.9%;
+    }
+
+    /* ACTIVITE A MARSEILLE */
+
+    .Activité_à_Marseille{
+        width: 96%;
+    }
+
+    .conteneur_Vieux-Port_Fort-Iles{
+        flex-direction: column;
+    }
+    .a_Vieux_Port{
+        width: 100%;
+        height: 185px;
+        margin-bottom: 4%;
+    }
+    .img_Vieux_Port{
+        height: 145px;
+    }
+
+    .Fort_Iles{
+        width: 100%;
+        margin-left: 0;
+    }
+    .a_Fort_de_Pomègues{
+        width: 100%;
+        height: 185px;
+        margin-bottom: 4%;
+    }
+    .img_Fort_de_Pomègues{
+        height: 145px;
+    }
+    .a_Iles_du_Frioul{
+        width: 100%;
+        height: 185px;
+    }
+    .img_Iles_du_Frioul{
+        height: 145px;
+    }
+    .conteneur_Parc-Nationnal_Notre-dame_Parc-LongC{
+        flex-direction: column;
+    }
+    .a_Parc_N_des_C{
+        width: 100%;
+        height: 185px;
+        margin-bottom: 4%;
+    }
+    .img_Parc_N_des_C{
+        height: 145px;
+    }
+
+    .NDG_Parc_L{
+        width: 100%;
+        margin-left: 0;
+    }
+    .a_NDG{
+        width: 100%;
+        height: 185px;
+        margin-bottom: 4%;
+    }
+    .img_NDG{
+        height: 145px;
+    }
+    .a_Parc_L{
+        width: 100%;
+        height: 185px;
+    }
+    .img_Parc_L{
+        height: 145px;
+    }
+}
+
+/* MAX-WIDTH 1260 PX */
+
+@media screen and (max-width: 1260px) {
+    .h2_hébergement{
+        text-align: center;
+    }
+    .grille_hébergement{
+        justify-content: center;
+    }
+} 
+
+@media screen and (max-width: 1249px) {
+    .item_hébergement{
+        width: 30%;
+    }
+    .img_hébergement{
+        width: 99.9%;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .animaux{
+        margin-top: 10px;
+    }
+
+    /* ITEM HEBERGEMENT */
+
+    .item_hébergement{
+        width: 47%;
+    }
+    .img_hébergement{
+        width: 99.9%;
+    }
+}
+
+/* MAX-WIDTH 870 PX */
+
+@media screen and (max-width: 870px){
+    .grille-filtre{
+        flex-wrap: wrap;
+    }
+
+    .animaux{
+        margin-top: 10px;
+        margin-left: 1px;
+    }
+}
+
+/* MAX-WIDTH 799 PX */
+
+@media screen and (max-width: 839px) {
+    
+    /* HEBERGEMENT A MARSEILLE */
+    
+    .item_hébergement{
+        width: 95%;
+        height: 240px;
+    }
+    .img_hébergement{
+        width: 99.9%;
+    }
+    .info-hébergement{
+        margin: 5px 0 20px 0;
+    }
+}
+
+/* MAX-WIDTH 759 PX */
+
+@media screen and (max-width: 759px) {
+    
+    /* ACTIVITE A MARSEILLE */
+
+    .Activité_à_Marseille{
+        flex-direction: column;
+    }
+    .conteneur_Vieux-Port_Fort-Iles{
+        width: 100%;
+    } 
+    .conteneur_Parc-Nationnal_Notre-dame_Parc-LongC{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 4%;
+    }
+
+    /* FOOTER */
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav_a_propos{
+        margin-left: 0;
+    }
+    .nav_assistance{
+        margin-top: 0;
+    }
+    
+}
+
+/* MAX-WIDTH 710 PX */
+
+@media screen and (max-width: 710px) {
+    .romantique{
+        margin-left: 0;
+    }
+
+    .animaux{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    .romantique{
+        margin-top: 10px;
+    }
+}
+
+/* MAX-WIDTH 649 PX */
+
+@media screen and (max-width: 649px) {
+    .romantique{
+        margin-top: 10px;
+    }
+}
+
+/* MAX-WIDTH 565 PX */
+
+@media screen and (max-width: 565px){
+    
+    /* HEADER */
+    
+    .acceuil{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .booky{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .acceuil .menu{
+        width: 100%;
+    }
+    .acceuil .menu li{
+        width: 50%;
+        padding: 20px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .acceuil .menu li a:hover{
+        border-top: none;
+    }
+    .acceuil .menu li:hover{
+        border-bottom: 3px solid #0065FC;
+    }
+    
+    h1, .accroche{
+        text-align: center;
+    }
+
+    .barre_de_recherche{
+        justify-content: center;
+    }
+
+    /* FOOTER */
+
+    footer{
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav_a_propos{
+        width: 95%;
+        margin-left: 5%;
+    }
+    .nav_hébergement{
+        width: 95%;
+        margin-left: 5%;
+    }
+    .nav_assistance{
+        width: 95%;
+        margin-left: 5%;
+    }
+
+}
+
+/* MAX-WIDTH 535 PX */
+
+@media screen and (max-width: 535px) {
+    .h1-à-la-ligne_responsive{
+        display: flex;
+    }
+    
+    .btn-recherche{
+        display: none;
+    }
+    .btn-loupe{
+        display: flex;
+        border-radius: 10px;
+    }
+
+    .h2_hébergement{
+        margin-left: 75px;
+    }
+}
+
+@media screen and (max-width: 484px)  {
+    .familial{
+        width: 118px;
+    }
+}
+
+/* RESPONSIVE TELEPHONE */
+
+@media screen and (max-width: 375px) {
+    
+    /* HEADER */
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .acceuil{
+        width: 100%;
+    }
+
+    .a_activités{
+        margin-left: 50px;
+    } 
+    .acceuil .menu li{
+        justify-content:space-between;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .barre_de_recherche{
+        width: 100vw;
+        height: 50px;
+        margin-left: -20px;
+    }
+    .localisation{
+        width: 65px;
+    }
+    .fa-location-dot{
+        font-size: 20px;
+    }
+    .barre_de_recherche input{
+        width: 220px;
+    }
+    input{
+        font-weight: 800;
+    }
+    .btn-recherche{
+        display: none;
+    }
+    .btn-loupe{
+        display: flex;
+        width: 50px;
+        height: 50px;
+    }
+    .fa-magnifying-glass{
+        font-size: 17px;
+    }
+
+    /* FILTRE */
+
+    .filtre{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .span-filtre{
+        margin-left: -280px;
+        margin-bottom: 10px;
+    }
+    .grille-filtre{
+        position: relative;
+    }
+    .familial{
+        position: absolute;
+        left: 180px;
+    }
+
+    .info-à-la-ligne_responsive{
+        display: flex;
+    }
+
+    .section_hébergement{
+        margin: 30px 0 30px 0;
+    }
+    
+    /* POPULAIRE */
+    
+    .populaire{
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+    }
+    .h2_populaire{
+        margin-left: 5px;
+    }
+    .div_h2-populaire .fa-star{
+        margin-right: 10px;
+    }
+    .item_populaire{
+        margin-left: 5px;
+    }
+    .h3_items-populaire{
+        font-size: 12px;
+    }
+
+    /* HEBERGEMENT A MARSEILLE */
+
+    .h2_hébergement{
+        margin-left: 15px;
+    }
+    .Hébergement_à_Marseille{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+    }
+    .grille_hébergement{
+        background: #ffffff;
+        width: 100%;
+    }
+    .item_hébergement{
+        height: 220px;
+        margin: 10px 0 10px 0;
+        box-shadow: 2px 2px 4px #f1f1f1;
+    }
+    .info-hébergement{
+        margin: 5px 0 10px 0;
+    }
+}

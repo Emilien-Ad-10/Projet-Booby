@@ -1,0 +1,1024 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    background: #ffffff;
+    height: auto;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HEADER */
+
+/* LOGO + MENU NAVIGATION */
+
+header{
+    width: 97%;
+    margin: 0 2.5% 5% 2.5%;
+}
+
+.acceuil{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.acceuil .menu{
+    display: flex;
+    list-style-type: none; 
+    
+}
+
+.acceuil .menu li{
+    margin: 0 30px;
+}
+
+.acceuil .menu li a{
+    text-decoration: none;
+    color: #222;
+    padding-top: 35px;
+}
+
+.acceuil .menu li a:hover{
+    border-top: 3px solid #0065FC;
+}
+
+.acceuil .menu li:hover a{
+    color: #0065FC;
+}
+
+.h1-à-la-ligne_responsive{
+    display: none;
+}
+
+.accroche{
+    color: #808080;
+}
+
+/* BARRE DE RECHERCHE */
+.barre_de_recherche{
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+}
+
+.barre_de_recherche input{
+    border: 1px solid #f1efef;
+} 
+
+input{
+    font-weight: 700;
+}
+
+.localisation{
+    border: 1px solid #f1efef;
+    width: 45px;
+    background: #f1efef;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-location-dot{
+    font-size: 15px;
+}
+
+.btn-loupe{
+    border: 1px solid #0065FC;
+    width: 40px;
+    background: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-recherche{
+    border: 1px solid #0065FC;
+    width: 120px;
+    background: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-recherche:hover{
+    border: 2px solid #DEEBFF;
+    box-shadow: 3px 3px 12px #222;
+}
+
+.btn-loupe:hover{
+    border: 2px solid #DEEBFF;
+    box-shadow: 3px 3px 12px #222;
+}
+
+/* FILTRES */
+.filtre{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.grille-filtre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.span-filtre{
+    color: #222;
+    font-weight: 800;
+    font-size: 16px;
+    margin-right: 35px;
+}
+
+/* ECONOMIQUE */
+.économique{
+    width: 160px;
+    height: 45px;
+    border: 2px solid #d8d5d5;
+    border-radius: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.icon-éco{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #DEEBFF;
+    border-radius: 50%;
+    background: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -13px;
+    cursor: pointer;
+}
+
+.fa-money-bill-wave{
+    font-size: 16px;
+    color: #0065FC;
+}
+
+.économique span{
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: 800;
+    color: #222;
+}
+
+.économique:hover {
+    background: #fff;
+    box-shadow: 2px 2px 9px #222;
+}
+
+.économique:hover span{
+    color: #222;
+}
+
+.économique:hover .icon-éco{
+    background: #0065fc;
+    border: 3px solid #DEEBFF;
+    box-shadow: 2px 2px 9px #222;
+}
+
+.économique:hover .icon-éco .fa-money-bill-wave{
+    color: #ffffff;
+} 
+
+/* FAMILIAL */
+.familial{
+    width: 140px;
+    height: 45px;
+    border: 2px solid #d8d5d5;
+    border-radius: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.icon-familial{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #DEEBFF;
+    border-radius: 50%;
+    background: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -13px;
+    cursor: pointer;
+}
+
+.fa-child-reaching{
+    font-size: 20px;
+    color: #0065FC;
+}
+
+.familial span{
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: 800;
+    color: #222;
+}
+
+.familial:hover {
+    background: #fff;
+    box-shadow: 2px 2px 9px #222;
+}
+
+.familial:hover span{
+    color: #222;
+}
+
+.familial:hover .icon-familial{
+    background: #0065fc;
+    border: 3px solid #DEEBFF;
+    box-shadow: 2px 2px 9px #222;
+}
+
+.familial:hover .icon-familial .fa-child-reaching{
+    color: #ffffff;
+}
+
+/* ROMANTIQUE */
+.romantique{
+    width: 160px;
+    height: 45px;
+    border: 2px solid #d8d5d5;
+    border-radius: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.icon-romantique{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #DEEBFF;
+    border-radius: 50%;
+    background: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -13px;
+    cursor: pointer;
+}
+
+.fa-heart{
+    font-size: 16px;
+    color: #0065FC;
+}
+
+.romantique span{
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: 800;
+    color: #222;
+}
+
+.romantique:hover {
+    background: #fff;
+    box-shadow: 2px 2px 9px #222;
+}
+
+.romantique:hover span{
+    color: #222;
+}
+
+.romantique:hover .icon-romantique{
+    background: #0065fc;
+    border: 3px solid #DEEBFF;
+    box-shadow: 2px 2px 9px #222;
+}
+
+.romantique:hover .icon-romantique .fa-heart{
+    color: #ffffff;
+}
+
+/* ANIMAUX AUTORISES */
+.animaux{
+    width: 220px;
+    height: 45px;
+    border: 2px solid #d8d5d5;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.icon-animaux{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #DEEBFF;
+    border-radius: 50%;
+    background: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -13px;
+    cursor: pointer;
+}
+
+.fa-dog{
+    font-size: 16px;
+    color: #0065FC;
+}
+
+.animaux span{
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 800;
+    color: #222;
+}
+
+.animaux:hover {
+    background: #fff;
+    box-shadow: 2px 2px 9px #222;
+}
+
+.animaux:hover span{
+    color: #222;
+}
+
+.animaux:hover .icon-animaux{
+    background: #0065fc;
+    border: 3px solid #DEEBFF;
+    box-shadow: 2px 2px 9px #222;
+}
+
+.animaux:hover .icon-animaux .fa-dog{
+    color: #ffffff;
+}
+
+/* INFO */
+.info{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon-info{
+    border: 2px solid #f1efef;
+    border-radius: 50%;
+    width:  25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-info{
+    font-size: 10px;
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.info p{
+    color: #808080;
+    margin-left: 10px;
+}
+
+.info-à-la-ligne_responsive{
+    display: none;
+}
+
+/* SECTION HEBERGEMENTS A MARSEILLE */
+.section_hébergement{
+    width: 97%;
+    margin: 0 2.5% 5% 2.5%;
+    display: flex;
+    background: #ffffff;
+}
+
+.Hébergement_à_Marseille{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #f2f2f2;
+    border-radius: 10px;
+    width: 68.5%;
+    height: auto;
+    padding: 30px;
+}
+
+.h2_hébergement{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.grille_hébergement{
+    width: 100%;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.item_hébergement{
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    width: 245px;
+    height: 210px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+.item_hébergement:hover{
+    box-shadow: 3px 3px 6px #222;
+}
+
+.img_hébergement{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 239px;
+    height: 135px;
+    object-fit: cover;
+}
+
+.info-hébergement{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.h3_items-hébergement{
+    margin-top: 7px;
+    margin-left: 7px;
+    font-size: 16px;
+}
+
+.p_items-hébergement span{
+    font-weight: normal;
+    margin-left: 7px;
+}
+
+/* CONTENEUR ICON FONT AWESOME */
+.div_star_div_hébergement{
+    margin-bottom: 7px;
+    margin-left: 7px;
+    color: #0065FC;
+}
+
+/* TAILLE ICON FONT AWESOME */
+i{
+    font-size: 10px;
+}
+
+/* AUBERGE DE LA CANNEBIERE */
+.div_star_hébergement_item-1{
+    margin-bottom: 7px;
+    margin-left: 7px;
+    color: #0065FC;
+}
+
+.div_star_hébergement_item-1 :nth-child(5){
+    color: #dfdbdb;
+}
+
+/* HOTEL LES MOUETTES */
+.div_star_hébergement_item-3{
+    margin-bottom: 7px;
+    margin-left: 7px;
+    color: #0065FC;
+}
+
+.div_star_hébergement_item-3 :nth-child(5){
+    color: #dfdbdb;
+}
+
+/* HOTEL DE LA MERE */
+.div_star_hébergement_item-4{
+    margin-bottom: 7px;
+    margin-left: 7px;
+    color: #0065FC;
+}
+
+.div_star_hébergement_item-4 :nth-child(4), .div_star_hébergement_item-4 :nth-child(5){
+    color: #dfdbdb;
+}
+
+/* HOTEL LE PANIER */
+.div_star_hébergement_item-5{
+    margin-bottom: 7px;
+    margin-left: 7px;
+    color: #0065FC;
+}
+
+.div_star_hébergement_item-5 :nth-child(5){
+    color: #dfdbdb;
+}
+
+.affichez-plus_hébergements{
+    margin: 20px 15px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+/* SECTION LES PLUS POPULAIRES */
+
+.populaire{
+    background: #f2f2f2;
+    width: 28.5%;
+    height: auto;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 15px;
+}
+
+.grille_populaire{
+    width: 100%;
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.h2_populaire{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.div_h2-populaire{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_h2-populaire .fa-star{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+.item_populaire{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0 7.5px 0;
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    width: 95%;
+    height: 145px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;   
+}
+
+.div_info_populaire{
+    display: flex;
+    flex-direction: column;
+}
+
+.item_populaire:hover{
+    box-shadow: 3px 3px 6px #222;
+}
+
+.img_populaire{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 140px;
+    height: 139px;
+    object-fit: cover;
+}
+
+.info-populaire{
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+
+.p_items-populaire span{
+    font-weight: normal;
+}
+
+.div_star_populaire{
+    margin-bottom: 7px;
+    margin-left: 10px;
+    color: #0065FC;
+}
+
+/* AU COEUR DE L'EAU CHAMBRE D'HOTES */
+.div_star_populaire_item-2{
+    margin-bottom: 7px;
+    margin-left: 7px;
+    color: #0065FC;
+}
+
+.div_star_populaire_item-2 :nth-child(5){
+    color: #dfdbdb;    
+}
+
+/* HOTEL TOUT BLEU ET BLANC */
+.div_star_populaire_item-3{
+    margin-bottom: 7px;
+    margin-left: 7px;
+    color: #0065FC;
+}
+
+.div_star_populaire_item-3 :nth-child(5){
+    color: #dfdbdb;    
+}
+
+/* ACTIVITE A MARSEILLE */
+
+.h2_activité{
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 30px;    
+}
+
+.Activité_à_Marseille{
+    display: flex;
+    width: 95.5%;
+    margin: 0 2.5% 5% 2.5%;
+    height: auto;
+    background: #ffffff;
+}
+
+.conteneur_Vieux-Port_Fort-Iles{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* VIEUX PORT */
+
+.a_Vieux_Port{
+    background: #ffffff;
+    width: 50%;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px #f1f1f1;
+    text-decoration: none;
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+}
+
+.a_Vieux_Port:hover{
+    box-shadow: 3px 3px 6px #222;
+}
+
+.img_Vieux_Port{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.h3_Vieux_Port{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.Fort_Iles{
+    width: 50%;
+    height: 400px;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* FORT DE POMEGUES */
+
+.a_Fort_de_Pomègues{
+    background: #ffffff;
+    box-shadow: 3px 3px 6px #f1f1f1;
+    width: 100%;
+    height: 205px;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+}
+
+.a_Fort_de_Pomègues:hover{
+    box-shadow: 3px 3px 6px #222;
+}
+
+.img_Fort_de_Pomègues{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+}
+
+.h3_Fort_de_Pomègues{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/* ILES DU FRIOUL */
+.a_Iles_du_Frioul{
+    background: #ffffff;
+    box-shadow: 3px 3px 6px #f1f1f1;
+    width: 100%;
+    height: 165px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+}
+
+.a_Iles_du_Frioul:hover{
+    box-shadow: 3px 3px 6px #222;
+}
+
+.img_Iles_du_Frioul{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+}
+
+.h3_Iles_du_Frioul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.conteneur_Parc-Nationnal_Notre-dame_Parc-LongC{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.25%;
+}
+
+/* PARC NATIONAL DES CALANQUES */
+
+.a_Parc_N_des_C{
+    background: #ffffff;
+    width: 50%;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px #f1f1f1;
+    text-decoration: none;
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+}
+
+.a_Parc_N_des_C:hover{
+    box-shadow: 3px 3px 6px #222;
+}
+
+.img_Parc_N_des_C{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.h3_Parc_N_des_C{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.NDG_Parc_L{
+    width: 50%;
+    height: 400px;
+    margin-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NOTRE DAME DE LA GARDE */
+.a_NDG{
+    background: #ffffff;
+    box-shadow: 3px 3px 6px #f1f1f1;
+    width: 100%;
+    height: 165px;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+}
+
+.a_NDG:hover{
+    box-shadow: 3px 3px 6px #222;
+}
+
+.img_NDG{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+}
+
+.h3_NDG{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/* PARC LONGCHAMP */
+
+.a_Parc_L{
+    background: #ffffff;
+    box-shadow: 3px 3px 6px #f1f1f1;
+    width: 100%;
+    height: 205px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #222;
+    font-weight: bold;
+}
+
+.a_Parc_L:hover{
+    box-shadow: 3px 3px 6px #222;
+}
+
+.img_Parc_L{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+}
+
+.h3_Parc_L{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/* FOOTER */
+footer{
+    background: #f2f2f2;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* NAV A PROPOS */
+.nav_a_propos{
+    width: 33%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.nav_a_propos h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 7px;
+}
+
+.nav_a_propos ul{
+    list-style-type: none;
+    margin-left: 0;
+    width: 100%;
+    height: 125px;
+}
+
+.nav_a_propos ul li{
+    padding: 5px;
+}
+
+.nav_a_propos ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #807e7e;
+}
+
+/* NAV HEBERGEMENT */
+.nav_hébergement{
+    width: 33%;
+    margin-top: 30px;
+}
+
+.nav_hébergement h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.nav_hébergement ul{
+    width: 100%;
+    height: 125px;
+    list-style-type: none;  
+}
+
+.nav_hébergement ul li{
+    padding: 5px;
+}
+
+.nav_hébergement ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #807e7e;
+}
+
+/* NAV ASSISTANCE */
+.nav_assistance{
+    width: 33%;
+    margin-top: 30px;
+}
+
+.nav_assistance h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.nav_assistance ul{
+    width: 100%;
+    list-style-type: none;
+}
+
+.nav_assistance ul li{
+    padding: 5px;
+}
+
+.nav_assistance ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #807e7e;
+}
