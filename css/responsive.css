@@ -359,7 +359,7 @@
     .localisation{
         width: 65px;
     }
-    .fa-location-dot{
+    .bxs-map{
         font-size: 20px;
     }
     .barre_de_recherche input{
@@ -376,8 +376,8 @@
         width: 50px;
         height: 50px;
     }
-    .fa-magnifying-glass{
-        font-size: 17px;
+    .bx-search-alt-2{
+        font-size: 20px;
     }
 
     /* FILTRE */

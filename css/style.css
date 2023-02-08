@@ -92,8 +92,8 @@ input{
     align-items: center;
 }
 
-.fa-location-dot{
-    font-size: 15px;
+.bxs-map{
+    font-size: 20px;
 }
 
 .btn-loupe{
@@ -182,8 +182,8 @@ input{
     cursor: pointer;
 }
 
-.fa-money-bill-wave{
-    font-size: 16px;
+.bx-money{
+    font-size: 25px;
     color: #0065FC;
 }
 
@@ -209,9 +209,9 @@ input{
     box-shadow: 2px 2px 9px #222;
 }
 
-.économique:hover .icon-éco .fa-money-bill-wave{
+.économique:hover .icon-éco .bx-money{
     color: #ffffff;
-} 
+}
 
 /* FAMILIAL */
 .familial{
@@ -241,8 +241,8 @@ input{
     cursor: pointer;
 }
 
-.fa-child-reaching{
-    font-size: 20px;
+.bx-universal-access{
+    font-size: 35px;
     color: #0065FC;
 }
 
@@ -268,7 +268,7 @@ input{
     box-shadow: 2px 2px 9px #222;
 }
 
-.familial:hover .icon-familial .fa-child-reaching{
+.familial:hover .icon-familial .bx-universal-access{
     color: #ffffff;
 }
 
@@ -300,8 +300,8 @@ input{
     cursor: pointer;
 }
 
-.fa-heart{
-    font-size: 16px;
+.bx-heart{
+    font-size: 25px;
     color: #0065FC;
 }
 
@@ -327,7 +327,7 @@ input{
     box-shadow: 2px 2px 9px #222;
 }
 
-.romantique:hover .icon-romantique .fa-heart{
+.romantique:hover .icon-romantique .bx-heart{
     color: #ffffff;
 }
 
@@ -358,8 +358,8 @@ input{
     cursor: pointer;
 }
 
-.fa-dog{
-    font-size: 16px;
+.bxs-dog{
+    font-size: 25px;
     color: #0065FC;
 }
 
@@ -385,7 +385,7 @@ input{
     box-shadow: 2px 2px 9px #222;
 }
 
-.animaux:hover .icon-animaux .fa-dog{
+.animaux:hover .icon-animaux .bxs-dog{
     color: #ffffff;
 }
 
@@ -511,7 +511,7 @@ input{
 
 /* TAILLE ICON FONT AWESOME */
 i{
-    font-size: 10px;
+    font-size: 20px;
 }
 
 /* AUBERGE DE LA CANNEBIERE */
