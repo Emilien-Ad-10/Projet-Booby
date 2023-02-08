@@ -407,8 +407,8 @@ input{
     align-items: center;
 }
 
-.fa-info{
-    font-size: 10px;
+.bx-info-circle{
+    font-size:  19px;
     color: #0065FC;
     font-weight: bold;
 }
@@ -596,7 +596,7 @@ i{
     justify-content: space-between;
 }
 
-.div_h2-populaire .fa-star{
+.div_h2-populaire .bxs-star{
     font-size: 18px;
     margin-top: 20px;
     margin-right: 0;
